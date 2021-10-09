@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopitesz</title>
+</head>
+<body>
+
+<h1> Registrar Productos </h1>
+<form action="/productos/registrar" method="post"></form>
+     <label>IdProducto:</label>
+     <input type="number" name="idproducto" required placeholder="IdProducto" >
+     <br>
+     <br>
+     <label>IdCategoria:</label>
+     <input type="number" name="idcategoria" required placeholder="IdCategoria" >
+     <br>
+     <br>
+     <label>Nombre:</label>
+     <input type="text" required  name="nombreproducto" placeholder="Ingresa nombre del producto" maxlength="50">
+     <br>
+     <br>
+     <label>Descripción:</label>
+     <input type="text" required  name="descripcionproducto" placeholder="Descripción del producto" maxlength="100">
+     <br>
+     <br>
+     <label>Precio de Venta:</label>
+     <input type="number" name="precioventa" required placeholder="Precio de Venta" >
+     <br>
+     <br>
+     <label>Existencias:</label>
+     <input type="number" name="existencia" required placeholder="Existencia" >
+     <br>
+     <br>
+     <label>Color:</label>
+     <input type="color" name="colorproducto" required placeholder="Color" >
+     <br>
+     <br>
+     <label>Marca:</label>
+     <input type="text" required  name="marcaproducto" placeholder="Marca del producto" maxlength="50">
+     <br>
+     <br>
+     <label>Costo de Envio:</label>
+     <input type="number" name="costoenvio" required placeholder="Costo de envio" >
+     <br>
+     <br>
+     <label>Estatus</label>
+     <input type="checkbox" name="estatus" checked>
+     <br>
+     <br>
+     <button type="submit">Registrar</button>
+     <a href="/productos">Regresar</a>
+
+     </form>
+
+</body>
+</html>
